@@ -1,0 +1,414 @@
+body {
+	margin: 0;	
+	background: url(../images/anhnen.jpg);
+	background-size: 2000px ;
+	
+}
+
+
+#TrangWeb {
+	width: 1100px;	
+	margin: 0 auto;
+	
+}
+		
+#PhanDau {
+	background: url(../images/banner.jpg);
+	width: 1100px;
+	height: 150px;
+	
+	text-align:right;
+	vertical-align: middle;
+	color:black;
+	font-size: 16px;
+	font-weight:bold;	
+}
+#menu1{
+	width: 165px;
+	height: 40px;
+	color: black;
+	font-size: 20px;
+	float:left;
+	background:#b7cdee;	
+	text-align:center;
+	line-height: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:georgia,garamond,serif;	
+}
+#menu1:hover{
+	background: #F1F1F1;
+color: #0C0A0A;
+}
+
+
+#menu2{
+	width: 600px;
+	height: 40px;
+	color: #1f0ef5;
+	
+	float:left;
+	text-align:left;
+	vertical-align: middle;
+	background: #b7cdee;
+	font-size: 25px;
+	text-align:left;
+	line-height: 40px;
+	font-style: italic;
+	font-weight: bold;	
+}
+#menu3{
+	width: 335px;
+	height: 40px;	
+	vertical-align: middle;
+	font-size: 16px;
+	text-align:left;
+	float:right;
+	background: #b7cdee;
+	line-height: 40px;
+	font-weight: bold;	
+}
+#asearch {
+	width: 1100px;
+	margin: 0 auto;
+
+}
+#menu4{
+	width: 770px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+	font-size: 15px;
+}
+
+#menu4 ul {
+  background: #5b7682;
+  text-align: left;
+	
+}
+#menu4 li {
+  
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#menu4 ul li a {
+  text-decoration: none;
+  display: block; 
+  
+}
+#menu4 ul li a:hover {
+  background: #F1F1F1;
+  color: #0C0A0A;
+}
+
+#menu5 {
+	width: 330px;
+	height: 40px;
+	color: black;
+    position:relative;
+    top:-55px;
+	vertical-align: middle;
+	font-size: 15px;
+	text-align:left;
+	float:right;
+	background: #15a978;
+	line-height: 40px;
+	font-weight: bold;
+}
+#PhanGiua {
+	width: 1000px;
+
+}
+
+#BenTrai {
+	width: 180px;
+	float: left;
+	margin-top:-17px;
+}
+
+#BenTrai h3 {
+	text-align:center;
+	font-size: 16px;
+	padding: 2px 0 0 5px;
+	margin-bottom: 0;
+	margin-top: 1px;
+	background-color: #a1d4f2;
+	color: #000000;
+	padding-bottom: 8px;
+	border: 1px solid #000000;
+}
+
+h3.xemthem{
+	font-size: 16px;	
+	margin-bottom: 0;
+	margin-top: 1px;	
+	color: #ffffff;
+	clear: both;
+	
+}
+#BenTrai ul {	
+	list-style-image: url(../images/li.gif);
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	border: 1px solid #000000;
+}
+
+#BenTrai ul li a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#BenTrai ul li a:hover {	
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#BenTrai ul li a:visited {
+	text-decoration: none;
+	color: #0000ff;
+}
+#Giua{
+	width: 900px;		
+	vertical-align: middle;	
+	margin-left: 190px;
+	margin-top: -200px;
+	
+}
+
+
+#Giua h3 {
+	font-size: 20px;
+	text-align:center;
+	color: #fc1c46;
+	font-family: Tahoma;
+	margin-top: 5px;
+	margin-bottom: 0;
+	background: #eff9ac;
+	
+	
+}
+
+#Giua h4 {
+	font-size: 20px;
+	text-align:center;
+	color: Black;
+	font-family: Tahoma;
+	margin-top: 8px;
+	margin-bottom: 0;
+
+}
+#PhanCuoi{
+
+	width:900px;
+	background-color:#1d2250;
+	color:white;
+	margin-left:190px;
+}
+.cuoi th{
+	padding-right:30px;
+}
+.cuoi li{
+	font-size:12px;
+	text-align:left;
+	
+}
+.ThongBaoLoi {
+	padding: 0;
+	margin: 0;
+	color: #ff0000;
+}
+
+.ThongBao {
+	padding: 0;
+	margin: 0;
+	color: #0000ff;
+}
+
+.ThongTin {	
+	color: red;
+	font-weight: bold;
+}
+input[type=submit] {
+	margin-top: 1px;
+	border: 1px solid #808000;
+	padding: 3px 5px 3px 5px;
+	background-color: #FF33CC;
+	color:white;
+	font-weight:bold;
+}
+
+input.error {
+	border-bottom: 1px solid #ff0000;
+}
+
+select.error {
+	border-bottom: 1px solid #ff0000;
+}
+label.error {
+	color: #ff0000;
+}
+
+
+span.requirefield {
+	color: #FF0000;
+	font-size: 12px;
+}
+
+span.luotxem{
+	color: blue;
+	font-size: 16px;
+	
+}
+span.dongia{
+	color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	background: yellow;
+	text-decoration: line-through;
+	
+}
+span.giaban{
+	color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	background: yellow;	
+	
+}
+
+
+p.requirefields {
+	color: #FF0000;
+	font-style: italic;
+	font-size: 12px;
+	padding: 0;
+	margin: 3px 0px 3px 0px;
+}
+#result{
+	margin:20px 0px;
+}
+#menudung ul {
+  background: white;
+  width: 178px;
+  padding: 0;
+  list-style: none;
+  text-align: left;			  
+}
+
+#menudung li {
+  width: auto;
+  height: 30px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  
+  padding: 0 1em;
+}
+
+#menudung li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+#menudung li:hover {  
+  font-size:13pt;
+  color: #ff0000;
+}
+#menudung ul li {
+ position: relative;
+ font-size:12pt;
+}
+
+#menudung .sub-menu {
+ position: absolute;
+ left: 178px;
+ top: 0;
+ display: none;
+}
+#menudung li:hover .sub-menu {
+	display: block;
+	font-size:13pt;
+}
+
+a{
+	text-decoration: none;
+}
+#tomtat
+{
+	font-size:20px;
+	
+	    font-weight: bold;
+}
+.cot1{	
+		background-color:white;
+		border-bottom: 2px solid black;
+	
+}
+.cot1 th{
+		padding: 3px 10px 15px 30px;	
+		border: 2px solid black;
+}
+.cot1 img:hover {
+	 transform: scale(1.7);
+}
+.cot2 h4
+{
+ font-size:20px;		
+}
+.cot2{
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+.cot2 th{
+	padding: 3px 30px 20px 10px;			
+}
+.cot3{border-top: 2px solid black;
+	border-left: 2px solid black;
+}
+.cot4{border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+.cot5{border-top: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.khungsanpham
+{
+		padding: 3px 24px 15px 24px;
+	width: 250px;
+    height: 260px;		
+	text-align: center;
+	font-weight: bold;	
+	background:white;	
+	border: 1px solid black;
+	float:left;
+	
+}
+
+
+.card {
+    width: 235px;
+    height: 200px;  
+    margin: 8px;
+    padding: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+	float: left;
+	
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
